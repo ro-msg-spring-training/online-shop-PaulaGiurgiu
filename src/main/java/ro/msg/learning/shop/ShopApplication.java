@@ -1,7 +1,10 @@
 package ro.msg.learning.shop;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import ro.msg.learning.shop.entity.Customer;
 
 @SpringBootApplication
 public class ShopApplication {
